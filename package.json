@@ -4,6 +4,7 @@
   "description": "Basic structure for Express web apps.",
   "main": "app.js",
   "scripts": {
+    "start": "node app.js",
     "test": "node_modules/.bin/mocha tests/**"
   },
   "keywords": [
@@ -16,8 +17,8 @@
   "author": "Terlici Ltd.",
   "license": "MIT",
   "dependencies": {
-    "express": "4.8.x",
-    "jade": "1.5.x"
+    "express": "4.9.x",
+    "jade": "1.7.x"
   },
   "devDependencies": {
     "mocha": "1.21.x",
