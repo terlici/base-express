@@ -1,4 +1,4 @@
-var express = require('express')
+const express = require('express')
   , router = express.Router()
 
 // Define routes handling profile requests

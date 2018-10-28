@@ -1,10 +1,10 @@
-var express = require('express')
+const express = require('express')
   , router = express.Router()
   , Comment = require('../models/comment')
 
-router.get('/:id', function(req, res) {
-  Comment.get(req.params.id, function (err, comment) {
-    res.render('comments/comment', {comment: comment})
+router.get('/:id', (req, res) => {
+  Comment.get(req.params.id, (err, comment) => {
+    res.render('comments/comment', {comment})
   })
 })
 

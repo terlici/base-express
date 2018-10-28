@@ -5,7 +5,7 @@
   "main": "app.js",
   "scripts": {
     "start": "node app.js",
-    "test": "node_modules/.bin/mocha tests/**"
+    "test": "node_modules/.bin/mocha --recursive tests"
   },
   "keywords": [
     "base",
@@ -17,12 +17,12 @@
   "author": "Terlici Ltd.",
   "license": "MIT",
   "dependencies": {
-    "body-parser": "^1.12.3",
-    "express": "^4.12.3",
-    "jade": "^1.9.2"
+    "body-parser": "^1.18.3",
+    "express": "^4.16.0",
+    "pug": "^2.0.3"
   },
   "devDependencies": {
-    "mocha": "^2.2.4",
-    "should": "^6.0.1"
+    "mocha": "^5.2.0",
+    "should": "^13.2.3"
   }
 }
